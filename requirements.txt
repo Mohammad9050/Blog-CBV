@@ -19,3 +19,6 @@ coreapi
 #test
 pytest
 pytest-django
+
+#fake data
+faker
