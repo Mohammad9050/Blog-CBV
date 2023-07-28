@@ -1,0 +1,21 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+django==4.1.5
+gunicorn==20.1.0
+python-decouple==3.8
+pillow
+django-filter
+djangorestframework
+markdown
+drf-yasg[validation]
+djangorestframework-simplejwt
+django-mail-templated
+djoser
+django-rest-authtoken
+# reformating
+black
+flake
+coreapi
+
+#test
+pytest
+pytest-django
